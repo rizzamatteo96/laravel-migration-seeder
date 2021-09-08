@@ -8,10 +8,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="{{route('home-page')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Viaggi</a>
+            <a class="nav-link" href="{{route('travels-page')}}">Viaggi</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Storia</a>

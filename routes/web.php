@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@homepage')->name('home-page');
+Route::get('/travels', 'TravelsController@travelspage')->name('travels-page');

@@ -1,5 +1,5 @@
 @extends('layout/app')
-@section('title', 'homepage')
+@section('title', 'Home Page')
 
 @section('content')
   <div>
