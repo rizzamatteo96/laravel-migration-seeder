@@ -10,10 +10,6 @@ class HomeController extends Controller
         return view('homepage');
     }
 
-    public function history() {
-        return view('history');
-    }
-
     public function contacts() {
         return view('contacts');
     }

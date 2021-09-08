@@ -18,5 +18,5 @@ Route::get('/', 'HomeController@homepage')->name('home-page');
 Route::get('/travels', 'TravelsController@travelspage')->name('travels-page');
 Route::get('/travelsDetails/{id}', 'TravelsController@details')->name('details-page');
 
-Route::get('/history', 'HomeController@history')->name('history-page');
+Route::get('/history', 'YearsController@history')->name('history-page');
 Route::get('/contacts', 'HomeController@contacts')->name('contacts-page');
