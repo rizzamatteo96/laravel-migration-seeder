@@ -9,10 +9,4 @@
   <p>Tipo di viaggio: {{$travels->travel_type}}</p>
   <p>Tipo di trasporto: {{$travels->transportation}}</p>
   <p>Prezzo del viaggio: {{$travels->price}}€</p>
-  
-  
-  
-  
-  
-
 @endsection

@@ -14,10 +14,10 @@
             <a class="nav-link" href="{{route('travels-page')}}">Viaggi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Storia</a>
+            <a class="nav-link" href="{{route('history-page')}}">Storia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contatti</a>
+            <a class="nav-link" href="{{route('contacts-page')}}">Contatti</a>
           </li>
         </ul>
       </div>
